@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "aiformapi": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://aiformapi.com/mcp",
+        "--header",
+        "Authorization:${AIFORMAPI_AUTH}"
+      ],
+      "env": {
+        "AIFORMAPI_AUTH": "Bearer afk_your_key_here"
+      }
+    }
+  }
+}

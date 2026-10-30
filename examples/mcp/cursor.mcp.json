@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "aiformapi": {
+      "url": "https://aiformapi.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:AIFORMAPI_KEY}"
+      }
+    }
+  }
+}

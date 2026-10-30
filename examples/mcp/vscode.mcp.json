@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "aiformapi-key",
+      "description": "AI Form API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "aiformapi": {
+      "type": "http",
+      "url": "https://aiformapi.com/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:aiformapi-key}"
+      }
+    }
+  }
+}
